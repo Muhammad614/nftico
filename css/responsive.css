@@ -1,0 +1,499 @@
+@media(max-width:1600px) {
+  footer ul li:last-child {
+    width: 100%;
+    margin-top: 100px;
+  }
+}
+
+@media(max-width:1400px) {
+  .section-3 .collections .cl h1 {
+    font-size: 16px;
+  }
+}
+
+@media(max-width:1200px) {
+  .sc-1-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sc-1-content .img {
+    width: 100%;
+    display: block;
+  }
+
+  .sc-1-content .img .sc-1-img {
+    display: none;
+  }
+
+  .sc-1-content .img .responsive-img {
+    display: block;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .sc-1-content p {
+    width: 100%;
+  }
+
+  .sc-1-content .btn {
+    justify-content: center;
+  }
+
+  .sc-1-content h3 {
+    justify-content: center;
+  }
+
+  .section-1 .sc-1-ellipse {
+    width: 100%;
+  }
+
+  .sc-1-content .text .circle-1,
+  .sc-1-content .text .circle-2,
+  .sc-1-content .text .vector-1,
+  .sc-1-content .text .vector-2,
+  .sc-1-content .text .vector-3 {
+    display: none;
+  }
+
+  .section-1 .label li:nth-child(1) {
+    display: none;
+  }
+
+  .section-1 .we-will-responsive {
+    display: block;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .section-1 .label {
+    margin-top: 30px;
+  }
+
+  .section-2 .cards,
+  .section-4 .sc-4-cards {
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .section-2 .cards .card,
+  .section-4 .sc-4-cards .card {
+    width: 40%;
+  }
+
+  .section-3 .collections .cl {
+    width: 48%;
+  }
+
+  .section-3 .collections .cl.last {
+    display: none;
+  }
+
+  .section-3 .collections button {
+    display: block;
+  }
+
+  .sc-5-content {
+    flex-direction: column;
+    margin-top: 70px;
+  }
+
+  .sc-5-content .left-img {
+    display: none;
+  }
+
+  .sc-5-content .left-block {
+    width: 100%;
+    margin-bottom: 35px;
+    margin-top: 0;
+  }
+
+  .sc-5-content .left,
+  .sc-5-content .right {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .brands .logos {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brands .logos div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media(max-width:1000px) {
+  nav .search {
+    display: none;
+  }
+
+  nav .burger {
+    display: block;
+  }
+
+  .sc-1-content h1 {
+    font-size: 60px;
+  }
+
+  .section-2 .cards,
+  .section-4 .sc-4-cards {
+    justify-content: center;
+    gap: 50px;
+  }
+
+  .section-2 .cards .card,
+  .section-4 .sc-4-cards .card {
+    margin-bottom: 0px;
+  }
+
+  .section-6 .head {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .sc-7-content .diamond {
+    width: 40%;
+  }
+
+  .sc-7-content .text {
+    width: 55%;
+  }
+
+  .sc-7-content h1 {
+    font-size: 42px;
+  }
+}
+
+@media(max-width:850px) {
+  .sc-3-head {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .sc-3-head .choose {
+    width: 50%;
+    justify-content: space-between;
+  }
+
+  .sc-3-head .ethereum {
+    width: 50%;
+  }
+}
+
+@media(max-width:800px) {
+
+  .section-2 .cards,
+  .section-4 .sc-4-cards {
+    gap: 0;
+  }
+
+  .section-2 .cards .card,
+  .section-4 .sc-4-cards .card {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+
+  .sc-3-head .choose {
+    width: 65%;
+    justify-content: space-between;
+  }
+
+  .sc-3-head .ethereum {
+    width: 65%;
+  }
+
+  .sc-5-content .left,
+  .sc-5-content .right {
+    width: 100%;
+  }
+
+  .sc-7-content h1 {
+    font-size: 36px;
+  }
+
+  .sc-7-content {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 75px;
+    gap: 35px;
+  }
+
+  .sc-7-content .diamond {
+    width: 45%;
+  }
+
+  .sc-7-content .text {
+    width: 75%;
+  }
+
+  footer ul li:last-child {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  footer ul form, footer ul .links {
+    justify-content: center;
+  }
+}
+
+@media(max-width:750px) {
+
+  .section-3 .collections .cl:nth-child(8),
+  .section-3 .collections .cl:nth-child(7),
+  .section-3 .collections .cl:nth-child(6),
+  .section-3 .collections .cl:nth-child(5) {
+    display: none;
+  }
+
+  .section-3 .collections .cl {
+    width: 100%;
+  }
+
+  .section-3 .collections button {
+    display: block;
+  }
+}
+
+@media(max-width:700px) {
+  footer ul {
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  footer ul li {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+
+@media(max-width:650px) {
+  .section-1 .label {
+    flex-direction: column;
+    gap: 70px;
+  }
+  
+  .section-2 .cards .card,
+  .section-4 .sc-4-cards .card {
+    width: 75%;
+  }
+}
+
+@media(max-width:600px) {
+  nav .menu {
+    display: none;
+  }
+
+  nav .logo img {
+    width: 90%;
+  }
+
+  .responsive-bar .responsive-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .resposive-search form {
+    width: auto;
+  }
+
+  header .resposive-search .get-in-touch {
+    width: auto;
+  }
+
+  .sc-1-content .text {
+    width: 100%;
+  }
+
+  .sc-1-content h1 {
+    font-size: 54px;
+  }
+
+  .sc-1-content {
+    margin-top: 30px;
+  }
+
+  .sc-1-content p {
+    font-size: 22px;
+  }
+
+  .section-2 .cards .card,
+  .section-4 .sc-4-cards .card {
+    width: 70%;
+  }
+
+  .sc-3-head .choose,
+  .sc-3-head .ethereum {
+    width: 90%;
+  }
+
+  .sc-3-head {
+    margin-top: 100px;
+  }
+
+  .sc-5-content .right .img {
+    display: none;
+  }
+
+  .section-6 .head .head-menu {
+    display: none;
+  }
+
+  .sc-7-content h1 {
+    font-size: 36px;
+  }
+
+  .sc-7-content .diamond {
+    width: 60%;
+  }
+
+  .sc-7-content .text {
+    width: 80%;
+  }
+
+  .sc-7-content p {
+    font-size: 16px;
+  }
+
+  .brands .logos div {
+    width: 100%;
+  }
+
+}
+
+@media(max-width:450px) {
+  header .resposive-search {
+    flex-direction: column;
+  }
+
+  header .resposive-search form {
+    width: 100%;
+  }
+
+  header .resposive-search .get-in-touch {
+    width: 100%;
+  }
+
+  .sc-1-content h1 {
+    font-size: 42px;
+  }
+
+  .sc-1-content {
+    margin-top: 15px;
+  }
+
+  .sc-1-content p {
+    font-size: 20px;
+    margin-top: 0px;
+  }
+
+  .sc-1-content .img .responsive-img {
+    width: 100%;
+  }
+
+  .section-2 .cards .card,
+  .section-4 .sc-4-cards .card {
+    width: 90%;
+  }
+
+  .sc-3-head .choose,
+  .sc-3-head .ethereum {
+    width: 100%;
+    text-align: center;
+  }
+
+  .sc-3-head {
+    margin-top: 70px;
+  }
+
+
+  .sc-5-content .right .card .btn {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .sc-5-content .left-block .btn {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .sc-5-content .right .card,
+  .sc-5-content .left-block {
+    padding: 20px;
+  }
+
+  .sc-7-content h1 {
+    font-size: 36px;
+  }
+
+  .sc-7-content .diamond {
+    width: 75%;
+  }
+
+  .sc-7-content .text {
+    width: 100%;
+  }
+
+  footer ul form {
+    flex-direction: column;
+  }
+
+  footer ul input {
+    border-radius: 10px;
+    width: 100%;
+  }
+
+  footer ul button {
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 7px 30px;
+  }
+} 
+
+@media(max-width:400px) {
+
+  .section-2 .cards .card,
+  .section-4 .sc-4-cards .card {
+    width: 100%;
+  }
+
+  .sc-3-head .choose {
+    flex-direction: column;
+  }
+
+  .sc-3-head .choose div {
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-3 .collections .cl .img div:nth-child(1) {
+    display: none;
+  }
+
+  .sc-7-content {
+    margin-top: 35px;
+  }
+
+  .sc-7-content h1 {
+    font-size: 32px;
+  }
+
+  .sc-7-content .diamond {
+    width: 85%;
+  }
+
+  .sc-7-content p {
+    font-size: 14px;
+  }
+}
